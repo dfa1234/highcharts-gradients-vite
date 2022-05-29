@@ -30,7 +30,7 @@ export const drawSvg = function () {
   const moonCircumference = 50;
   const moonImage = chart.renderer
     .image(
-      `https://raw.githubusercontent.com/dfa1234/highcharts-gradients-vite/master/circle.svg`,
+      `https://raw.githubusercontent.com/dfa1234/highcharts-gradients-vite/master/favicon.svg`,
       moonPointX - moonCircumference / 2,
       moonPointY - moonCircumference / 2,
       moonCircumference,
