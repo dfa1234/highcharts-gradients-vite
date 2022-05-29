@@ -7,7 +7,7 @@ export const drawSvg = function () {
 
   svgElements.forEach((element) => element.destroy());
   svgElements.length = 0;
-
+ 
   const moveCursorTo = 'M';
   const drawLineTo = 'L';
   const moonPoint = chart.series[0].data[3];
