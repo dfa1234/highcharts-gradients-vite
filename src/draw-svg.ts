@@ -3,11 +3,11 @@ import * as Highcharts from 'highcharts';
 const svgElements: Highcharts.SVGElement[] = [];
 
 export const drawSvg = function () {
-  const chart: any = this as any;
+  const chart: Highcharts.Chart = this as any;
 
   svgElements.forEach((element) => element.destroy());
   svgElements.length = 0;
- 
+
   const moveCursorTo = 'M';
   const drawLineTo = 'L';
   const moonPoint = chart.series[0].data[3];
