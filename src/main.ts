@@ -2,7 +2,7 @@ import * as Highcharts from 'highcharts';
 
 import { drawSvg } from './draw-svg';
 
-const configuration1 = {
+const configuration1: any = {
   chart: {
     type: 'area',
     events: {
@@ -73,4 +73,4 @@ const configuration1 = {
 
 ////////////////
 
-const chart: any = Highcharts.chart('container1', configuration1);
+const chart: Highcharts.Chart = Highcharts.chart('container1', configuration1);
